@@ -1,0 +1,41 @@
+
+/* Загальні стилі */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+   justify-content: center; 
+    align-items: center; 
+    list-style: none;
+}
+
+.gallery-item{
+    
+    width: calc((1128px - 24px * 2 ) / 3);
+}
+
+.gallery-item a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+.gallery-image {
+    width: 360px;
+    height: 200px;
+    display: block;
+}
+.gallery-item:hover {
+   
+    transform: scale(1.05); 
+     
+}
